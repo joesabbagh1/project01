@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+.navbar-custom {
+  background-color: #9be2e2;
+}
+.navbar-nav {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+.navbar-nav li {
+  padding-left: 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #000000;
+}
+
+.crop {
+  width: 100%;
+  height: 565px;
+  object-fit: cover;
+  object-position: top;
+}
+.textstyle {
+  text-align: center;
+}
+.size {
+  font-size: 30px;
+}
+.butpostion {
+  margin-left: 120px;
+}
+.padding {
+  padding: 10px;
+}
+.jumbotron {
+  background-color: #9fdfdf5e;
+}
+.form {
+  width: 100%;
+  margin: auto;
+}
+.btn-primary {
+  color: black;
+  background-color: #9be2e2;
+  border: 0px;
+}
+.btn-outline-primary {
+  color: #484ae2;
+  border-color: #484ae2;
+  border-radius: 7px;
+}
+.btn-outline-primary:hover {
+  background-color: #484ae2;
+  border-color: #484ae2;
+}
+.form-control:focus {
+  border-color: #484ae2;
+  box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.075), 0 0 3px #191ba3;
+}
+.appBackground {
+  margin: auto;
+  margin-top: -15px;
+  padding: 20px;
+  width: 80%;
+  background-color: white;
+}
+.box {
+  border: 0.7px solid #00000038;
+}
+.formtitle {
+  margin-top: -15px;
+  margin-bottom: 25px;
+}
+.apptitle {
+  color: #9be2e2;
+}
+.listTitle {
+  margin-top: 20px;
+  font-weight: 500;
+}
+.list {
+  margin-top: -15px;
+}
+li {
+  margin-bottom: 7px;
+  margin-left: -7px;
+}
