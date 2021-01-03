@@ -42,15 +42,52 @@
     </nav>
 
     
-    <form novalidate class="form">
+    <div class="jumbotron">
+        <div class="appBackground">
+        <div class="listpostion">
+            <h1 class="formtitle">Adopt</h1>
+                <h3 class="apptitle">Adoption application</h3>
+                <p class="listTitle">To adopt you must:</p>
+                <ul class="list">
+                    <li>
+                        Provide a copy of your government issued photo ID
+                    </li>
+                    <li>
+                        Be at least 18 years of age
+                    </li>
+                    <li>
+                        Understand that adopting can be a 15 to 20 year commitment 
+                    </li>
+                    <li>
+                        Be prepared for ongoing expenses and veterinary care
+                    </li>
+                    <li>
+                        Agree that if for any reason the adoption does not work out then <br>
+                        the animal will be returned to Animals Lebanon
+                    </li>
+                    <li>
+                        Complete the adoption application, providing contact details <br>
+                        and information about the home you can provide
+                    </li>
+                    <li>
+                        If everything seems great the adoption will be complete and you will <br>
+                        sign an adoption agreement and can welcome the animal into your home
+                    </li>
+                    <li>
+                        We will be available to help with any advice you need or answer any questions <br>
+                        to make sure the adoption is rewarding and fun for you and the animal
+                    </li>
+                </ul>
+        </div>
+        <form novalidate class="form">
         <div class="row">
-            <div class="col">
+            <div class="col-6">
                 <div class="form-group">
                     <label for="firstname">Firstname</label>
                     <input type="text" name="firstname" id="firstname" class="form-control">
                 </div>
             </div>
-            <div class="col">
+            <div class="col-6">
                 <div class="form-group">
                     <label for="lastname">Lastname</label>
                     <input type="text" name="lastname" id="lastname" class="form-control">
@@ -67,16 +104,14 @@
             <div class="col">
                 <div class="form-group">
                     <label for="physical adress">Physical adress</label>
-                    <input type="text" name="physical adress" id="lphysical adress" class="form-control">
+                    <input type="text" name="physical adress" id="physical adress" class="form-control">
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" class="form-control">
-                </div>
+                <label for="age">Date Of Birth</label>
+                <input type="date" name="age" id="age" class="form-control">
             </div>
             <div class="col">
                 <div class="form-group">
@@ -85,25 +120,26 @@
                 </div>
             </div>
         </div>
-
         <div class="form-group">
-            <label for="age">Date Of Birth</label>
-            <input type="date" name="age" id="age">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control">
+            </div>
         </div>
         <div class="form-group">
-            <label for="owning_pets">Do you currently have any cats, dogs or other animals?
-                <input type="radio" name="owning_pets" id="owning_pets"  value="yes">Yes
+            <label for="owning_pets">Do you currently have any cats, dogs or other animals?&nbsp;&nbsp;
+                <input type="radio" name="owning_pets" id="owning_pets" value="yes">Yes&nbsp;
             </label>
             <label for="owning_pets">
-                <input type="radio" name="owning_pets" id="owning_pets"  value="no">No
+                <input type="radio" name="owning_pets" id="owning_pets" value="no">No
             </label>
         </div>
-
         <div class="form-check">
-            <input type="checkbox" id="accept-terms" class="form-check-input">
-            <label for="accept-terms" class="form-check-label" >Accept Terms &amp; Conditions</label>
-        </div><br><br>
-        <button type="submit" class="btn btn-outline-primary" >Submit</button>
+            <input type="checkbox" id="accept-terms" class="form-check-input ">
+            <label for="accept-terms" class="form-check-label">Accept Terms &amp; Conditions</label>
+        </div>
+        <button type="submit" class="btn btn-outline-primary submitposition">Submit</button>
     </form>
+    </div></div></div>
 </body>
 </html>
