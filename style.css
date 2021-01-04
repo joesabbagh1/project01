@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 
 .navbar-custom {
   background-color: #9be2e2;
 }
 .navbar-nav {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
   font-size: 20px;
 }
 .nav-item {
@@ -15,6 +16,10 @@
 }
 .navbar-nav a {
   padding: 0;
+}
+.navbutton {
+  border-width: 2px;
+  font-weight: 500;
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgb(255, 255, 255);
