@@ -1,39 +1,57 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 
-.navbar-custom {
-  background-color: #9be2e2;
-}
-.navbar-nav {
-  font-family: "Lato";
-  font-size: 20px;
-}
-.nav-item {
-  margin: 0px;
-}
-.navbar-nav li {
-  margin-left: 10px;
-}
-.navbar-nav a {
-  padding: 0;
-}
-.navbutton {
-  border-width: 2px;
-  font-weight: 500;
-}
-.navbar-light .navbar-nav .nav-link {
-  color: rgb(255, 255, 255);
-}
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: #000000;
+body {
+  background: #ffffff;
 }
 
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #9be2e2;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  @media all and (min-width: 545px) {
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  li {
+    display: none;
+    @media all and (min-width: 545px) {
+      display: block;
+    }
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "cabin";
+    font-size: 1em;
+    color: #000000;
+    text-align: center;
+    padding: 14px 30px;
+    transition: background 0.25s;
+    &:hover {
+      text-decoration: none;
+      color: #ffffff;
+      background: #484ae2;
+    }
+    @media all and (min-width: 545px) {
+      padding: 20px;
+    }
+  }
+}
 .crop {
   width: 100%;
-  height: 570px;
+  height: 565px;
   object-fit: cover;
   object-position: top;
 }
@@ -95,10 +113,6 @@
 }
 .list {
   margin-top: -15px;
-}
-li {
-  margin-bottom: 7px;
-  margin-left: -7px;
 }
 .listpostion {
   margin-left: 200px;
