@@ -67,8 +67,10 @@ nav ul {
 .padding {
   padding: 10px;
 }
-.jumbotron {
+.background {
   background-color: #9fdfdf5e;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 .form {
   margin: auto;
@@ -96,7 +98,7 @@ nav ul {
 .appBackground {
   margin: auto;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 90px;
   width: 80%;
   background-color: white;
 }
@@ -119,4 +121,24 @@ nav ul {
 }
 .submitposition {
   margin-top: 30px;
+}
+.card {
+  width: 300px;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 50px 20px;
+  grid-template-columns: auto auto auto;
+  margin-right: 70px;
+  justify-content: right;
+}
+
+.grid-item {
+  paddig: 20px;
+}
+.crop2 {
+  width: 298px;
+  height: 225px;
+  object-fit: cover;
+  object-position: top;
 }

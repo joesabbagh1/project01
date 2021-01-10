@@ -99,8 +99,10 @@ nav ul a:hover {
   padding: 10px;
 }
 
-.jumbotron {
+.background {
   background-color: #9fdfdf5e;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 
 .form {
@@ -135,7 +137,7 @@ nav ul a:hover {
 .appBackground {
   margin: auto;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 90px;
   width: 80%;
   background-color: white;
 }
@@ -163,5 +165,34 @@ nav ul a:hover {
 
 .submitposition {
   margin-top: 30px;
+}
+
+.card {
+  width: 300px;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 50px 20px;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  margin-right: 70px;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.grid-item {
+  paddig: 20px;
+}
+
+.crop2 {
+  width: 298px;
+  height: 225px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 /*# sourceMappingURL=project.css.map */
