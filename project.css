@@ -175,16 +175,11 @@ nav ul a:hover {
   display: -ms-grid;
   display: grid;
   grid-gap: 50px 20px;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
-  margin-right: 70px;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-}
-
-.grid-item {
-  paddig: 20px;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .crop2 {
@@ -194,5 +189,35 @@ nav ul a:hover {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+section ul {
+  margin: -20px auto 30px auto;
+  text-align: center;
+  padding: 0;
+}
+
+section ul li {
+  border-radius: 30px;
+  display: inline;
+  list-style: none;
+  padding-right: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "cabin";
+  font-size: 1em;
+  color: #000000;
+  text-align: center;
+  padding: 14px 30px;
+  margin-right: 50px;
+  -webkit-transition: background 0.25s;
+  transition: background 0.25s;
+  cursor: pointer;
+}
+
+section ul li.active {
+  text-decoration: none;
+  color: #ffffff;
+  background: #484ae2;
 }
 /*# sourceMappingURL=project.css.map */
